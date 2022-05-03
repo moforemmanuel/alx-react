@@ -2,6 +2,7 @@ const path = require('path');
 
 
 module.exports = {
+  mode: 'production',
   entry: {
     index: path.resolve(__dirname, 'js/dashboard_main.js'),
   },
