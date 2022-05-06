@@ -1,0 +1,10 @@
+:root{
+  --red: #e0354b
+}
+
+.Notifications {
+  border: 1px solid var(--red);
+  padding: 1rem;
+  margin-top: 2rem;
+  text-align: center;
+}
