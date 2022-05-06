@@ -7,9 +7,9 @@ module.exports = {
   mode: 'development',
   entry: {
     // index: path.resolve(__dirname, 'js/dashboard_main.js'),
-    header: path.resolve(__dirname, 'modules/header/header.js'),
-    body: path.resolve(__dirname, 'modules/body/body.js'),
-    footer: path.resolve(__dirname, 'modules/footer/footer.js'),
+    header: './modules/header/header.js',
+    body: './modules/body/body.js',
+    footer: './modules/footer/footer.js',
   },
 
   output: {
