@@ -22,11 +22,14 @@ module.exports = {
   },
 
   devServer: {
-    static: {
-      directory: path.join(__dirname, 'public')
-    },
-    compress: true,
-    port: 8564,
+    // static: {
+    //   directory: path.join(__dirname, 'public')
+    // },
+    // compress: true,
+    // port: 8564,
+
+    contentBase: path.resolve(__dirname, '/public'),
+    port: 8564
 
   },
 
