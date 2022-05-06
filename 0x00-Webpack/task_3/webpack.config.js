@@ -28,7 +28,7 @@ module.exports = {
     // compress: true,
     // port: 8564,
 
-    contentBase: path.resolve(__dirname, '/public'),
+    contentBase: './public',
     port: 8564
 
   },
