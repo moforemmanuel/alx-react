@@ -23,6 +23,19 @@ module.exports = {
         use: ['style-loader', 'css-loader']
       },
 
+      // {
+      //   test: /\.(?:ico|gif|png|jpg|jpeg)$/i,
+      //   use: [
+      //     'file-loader',
+      //     {
+      //       loader: 'image-webpack-loader',
+      //       options: {
+      //         disable: true
+      //       }
+      //     }
+      //   ]
+      // },
+
       {
         test: /\.(?:ico|gif|png|jpg|jpeg)$/i,
         type: 'asset/resource'
