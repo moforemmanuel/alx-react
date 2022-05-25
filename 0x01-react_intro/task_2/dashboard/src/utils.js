@@ -7,4 +7,8 @@ function getFooterCopy(isIndex) {
   return 'Holberton School main dashboard';
 };
 
-module.exports = { getFullYear, getFooterCopy };
+function getLatestNotification () {
+  return '<strong>Urgent requirement</strong> - complete by EOD';
+}
+
+module.exports = { getFullYear, getFooterCopy, getLatestNotification };
