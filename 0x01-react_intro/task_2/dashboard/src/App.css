@@ -12,6 +12,7 @@
   display: flex;
   align-items: center;
   color: var(--red);
+  position: relative;
 }
 .App-header img {
   width: 200px;
@@ -21,6 +22,7 @@
 .App-body p{
   margin: 3rem;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  overflow-y: hidden;
 }
 
 .App-footer{
@@ -37,18 +39,27 @@
   text-align: center;
 }
 
-.form-control {
+/* .form-control {
   width: 20vw;
   display: flex;
   margin: 1rem;
   flex-direction: row;
   align-content: space-between;
   justify-content: space-between;
+  border: 1px solid black;
+} */
 
+#form {
+  display: flex;
+  flex-direction:row;
+}
+
+.form-control {
+  margin: auto 1rem;
 }
 
 
-button {
+/* button {
   margin: 2rem;
   padding: 0.5rem 2rem;
-}
+} */

@@ -9,8 +9,8 @@ export default function Notifications() {
       <p>Here is the list of notifications</p>
     </div>
 
-    <button aria-label='Close' onClick={() => console.log('Close button has been clicked')}>
-      {/* <img src={closeIcon} alt=''/> */}
+    <button className='closeBtn' aria-label='Close' onClick={() => console.log('Close button has been clicked')}>
+      <img src={closeIcon} alt='x' width='10'/>
       
     </button>
     </>
