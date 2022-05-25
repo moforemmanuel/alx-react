@@ -8,7 +8,6 @@ dd:root{
   margin-top: 2rem;
   /* width: 95%; */
   border: thin dashed var(--red);
-  text-align: center;
   position: relative;
   margin-bottom: 2rem;
   top: 0;
@@ -22,4 +21,12 @@ dd:root{
   position: absolute;
   background: transparent;
   border: none;
+}
+
+.text-red {
+  color: var(--red);
+}
+
+.text-navy {
+  color: navy;
 }
