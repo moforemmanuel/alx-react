@@ -1,0 +1,65 @@
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+:root{
+  --red: #e0354b
+}
+
+.App-header {
+  border-bottom: 4px solid var(--red);
+  display: flex;
+  align-items: center;
+  color: var(--red);
+  position: relative;
+}
+.App-header img {
+  width: 200px;
+  height: 200px;
+}
+
+.App-body p{
+  margin: 3rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  overflow-y: hidden;
+}
+
+.App-footer{
+  border-top: 3px solid var(--red);
+  bottom: 1px;
+  right: 1px;
+  position: absolute;
+  width: 100%;
+
+}
+
+.App-footer p {
+  font-style: italic;
+  text-align: center;
+}
+
+/* .form-control {
+  width: 20vw;
+  display: flex;
+  margin: 1rem;
+  flex-direction: row;
+  align-content: space-between;
+  justify-content: space-between;
+  border: 1px solid black;
+} */
+
+#form {
+  display: flex;
+  flex-direction:row;
+}
+
+.form-control {
+  margin: auto 1rem;
+}
+
+
+/* button {
+  margin: 2rem;
+  padding: 0.5rem 2rem;
+} */
